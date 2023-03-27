@@ -1,0 +1,123 @@
+{
+  "name": "communi-design-system",
+  "description": "design system for CommuniDAO",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CommuniDAO/communi-design-system"
+  },
+  "author": "Julian Clatro <hola@julianclatro.com> (https://hacksur.com)",
+  "contributors": [
+    "Julian Clatro <hola@julianclatro.com> (https://hacksur.com)"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "lint": "npm run lint:js && npm run lint:md",
+    "lint:js": "xo",
+    "lint:md": "remark . -qfo",
+    "pretest": "npm run lint",
+    "clean": "rm -rf lib",
+    "build": "tsc",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "cross-env NODE_ENV=production build-storybook",
+    "tailwind:dev": "cross-env NODE_ENV=development tailwindcss build -i styles/main.css -o styles/index.css -c tailwind.config.js",
+    "tailwind:build": "cross-env NODE_ENV=production tailwindcss build -i styles/main.css -o styles/index.css -c tailwind.config.js",
+    "watch-tailwind": "npx tailwindcss -i styles/main.css -o styles/index.css -c tailwind.config.js --watch",
+    "watch-build": "tsc -w",
+    "watch-storybook": "start-storybook --ci -p 6006",
+    "dev": "concurrently 'npm:watch-*'",
+    "production": "npm run clean && npm run tailwind:build && npm run build"
+  },
+  "keywords": [
+    "communi-design-system",
+    "lass"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@h6s/calendar": "latest",
+    "@headlessui-float/react": "latest",
+    "@headlessui/react": "latest",
+    "@storybook/addon-actions": "latest",
+    "@storybook/addon-essentials": "latest",
+    "@storybook/addon-links": "latest",
+    "@storybook/builder-webpack5": "latest",
+    "@storybook/manager-webpack5": "latest",
+    "@storybook/react": "latest",
+    "@tailwindcss/aspect-ratio": "latest",
+    "@tailwindcss/forms": "latest",
+    "@tailwindcss/line-clamp": "latest",
+    "@tailwindcss/typography": "latest",
+    "@types/luxon": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "ava": "latest",
+    "clsx": "latest",
+    "codecov": "latest",
+    "concurrently": "latest",
+    "framer-motion": "latest",
+    "cross-env": "latest",
+    "dayzed": "latest",
+    "eslint": "latest",
+    "eslint-config-xo-lass": "latest",
+    "eslint-config-xo-react": "latest",
+    "eslint-config-xo-typescript": "latest",
+    "@heroicons/react": "1.0.6",
+    "ahooks": "latest",
+    "qrcode-generator": "latest",
+    "rci": "latest",
+    "use-is-focused": "latest",
+    "fixpack": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "nyc": "latest",
+    "prettier": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-use": "latest",
+    "remark-cli": "^9.0.0",
+    "remark-preset-github": "latest",
+    "storybook-addon-designs": "latest",
+    "storybook-dark-mode": "latest",
+    "tailwindcss": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest",
+    "xo": "latest"
+  },
+  "peerDependencies": {
+    "react": "^16 || ^17 || ^18",
+    "react-dom": "^16 || ^17 || ^18"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "bugs": {
+    "url": "https://github.com/CommuniDAO/communi-design-system/issues",
+    "email": "hola@julianclatro.com"
+  },
+  "xo": {
+    "prettier": true,
+    "space": true,
+    "extends": [
+      "xo-lass",
+      "xo-react",
+      "xo-typescript"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module"
+    },
+    "webpack": true
+  },
+  "homepage": "https://github.com/CommuniDAO/communi-design-system",
+  "volta": {
+    "node": "16.15.1"
+  }
+}

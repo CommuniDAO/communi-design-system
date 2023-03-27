@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "target": "ES2021",
+    "lib": ["ES2021", "dom"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "~/src/*": ["./src/*"],
+      "~/theme/*": ["./theme/*"]
+    }
+  },
+  "include": ["./src/**/*", "styles/index.css", "./theme/**/*" ],
+  "exclude": ["node_modules", "lib", "./styles/main.css"]
+}
+  

@@ -1,0 +1,3 @@
+[submodule "src/atoms"]
+	path = src/atoms
+	url = https://github.com/hacksur/atoms
