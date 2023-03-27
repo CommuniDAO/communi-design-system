@@ -8,10 +8,7 @@ module.exports = {
     require('@tailwindcss/line-clamp'),
   ],
   content: [
-    './src/components/**/*.{js,jsx,ts,tsx}',
-    './src/collections/**/*.{js,jsx,ts,tsx}',
-    './theme/src/compositions/**/*.{js,jsx,ts,tsx}',
-    './theme/src/sections/**/*.{js,jsx,ts,tsx}'
+    './src/atoms/**/*.{js,jsx,ts,tsx}',
   ],
   safelist: [
     'text-paragraph-medium-underlined',
