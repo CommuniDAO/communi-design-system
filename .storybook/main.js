@@ -39,7 +39,6 @@ module.exports = {
       ...config.resolve.alias,
       '~/styles': path.resolve(__dirname, "../styles"),
       '~/src': path.resolve(__dirname, "../src"),
-      '~/theme': path.resolve(__dirname, "../theme"),
     };
 
     return config;

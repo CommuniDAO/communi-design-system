@@ -1,6 +1,5 @@
 const path = require('path');
 const currentPath = path.join(__dirname);
-// const srcPath = path.resolve(__dirname, 'src/');
 
 module.exports = {
   mode: 'production',
@@ -10,8 +9,7 @@ module.exports = {
   },  
   output: {
     path: path.resolve(currentPath, 'lib'),
-    filename: 'bundle.js',
-    publicPath: '/'
+    filename: '[name]/[name].js',    
   },
   resolve: {
     fallback: {
@@ -21,7 +19,6 @@ module.exports = {
     alias: {
       '~/styles': path.resolve(currentPath, 'styles'),
       '~/src': path.resolve(currentPath, 'src'),
-      '~/theme': path.resolve(currentPath, 'theme'),
     }
   },
   module: {

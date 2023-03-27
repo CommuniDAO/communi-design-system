@@ -17,10 +17,9 @@
     "baseUrl": ".",
     "paths": {
       "~/src/*": ["./src/*"],
-      "~/theme/*": ["./theme/*"]
     }
   },
-  "include": ["./src/**/*", "styles/index.css", "./theme/**/*" ],
+  "include": ["./src/**/*", "styles/index.css" ],
   "exclude": ["node_modules", "lib", "./styles/main.css"]
 }
   
