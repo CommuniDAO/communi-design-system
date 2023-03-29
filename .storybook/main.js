@@ -4,20 +4,20 @@ const path = require('path');
 let stories = [];
 if (process.env.NODE_ENV === 'development') {
   stories = [
-    // '../src/atoms/**/*.stories.mdx',
+    '../src/atoms/**/*.stories.mdx',
     '../src/atoms/**/*.stories.@(js|jsx|ts|tsx)',
-    // '../src/atoms/**/*.stories.dev.@(js|jsx|ts|tsx)',
+    '../src/atoms/**/*.stories.dev.@(js|jsx|ts|tsx)',
     // '../theme/**/*.stories.mdx',
     // '../theme/**/*.stories.@(js|jsx|ts|tsx)',
     // '../theme/**/*.stories.dev.@(js|jsx|ts|tsx)'
   ]
 } else if (process.env.NODE_ENV === 'production'){
-  // stories = [
-  //   '../src/**/*.stories.mdx',
-  //   '../src/**/*.stories.@(js|jsx|ts|tsx)',
-  //   '../theme/**/*.stories.mdx',
-  //   '../theme/**/*.stories.@(js|jsx|ts|tsx)'
-  // ]
+  stories = [
+    '../src/atoms/**/*.stories.mdx',
+    '../src/atoms/**/*.stories.@(js|jsx|ts|tsx)',
+    // '../theme/**/*.stories.mdx',
+    // '../theme/**/*.stories.@(js|jsx|ts|tsx)'
+  ]
 }
 
 module.exports = {
