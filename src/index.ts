@@ -44,3 +44,7 @@ export {
 export type {
   itemsNavigationProps,
 } from './atoms/types';
+export {
+  ClaimKey,
+  ConnectWallet
+} from './templates'

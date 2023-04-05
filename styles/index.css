@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.1 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -31,6 +31,7 @@
 3. Use a more readable tab size.
 4. Use the user's configured `sans` font-family by default.
 5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
 */
 
 html {
@@ -47,6 +48,8 @@ html {
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
 }
 
 /*
@@ -1021,17 +1024,11 @@ select {
 }
 
 .inset-0 {
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
+  inset: 0px;
 }
 
 .inset-1 {
-  top: 0.25rem;
-  right: 0.25rem;
-  bottom: 0.25rem;
-  left: 0.25rem;
+  inset: 0.25rem;
 }
 
 .inset-y-0 {
@@ -2812,26 +2809,33 @@ select {
 }
 
 .from-primary-500 {
-  --tw-gradient-from: var(--color-primary-500);
-  --tw-gradient-to: rgb(255 255 255 / 0);
+  --tw-gradient-from: var(--color-primary-500) var(--tw-gradient-from-position);
+  --tw-gradient-from-position:  ;
+  --tw-gradient-to: rgb(255 255 255 / 0)  var(--tw-gradient-from-position);
+  --tw-gradient-to-position:  ;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .via-secondary-500 {
-  --tw-gradient-to: rgb(255 255 255 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--color-secondary-500), var(--tw-gradient-to);
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to: rgb(255 255 255 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-to-position:  ;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--color-secondary-500) var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 
 .to-background {
-  --tw-gradient-to: var(--color-background);
+  --tw-gradient-to: var(--color-background) var(--tw-gradient-to-position);
+  --tw-gradient-to-position:  ;
 }
 
 .to-secondary-400 {
-  --tw-gradient-to: var(--color-secondary-400);
+  --tw-gradient-to: var(--color-secondary-400) var(--tw-gradient-to-position);
+  --tw-gradient-to-position:  ;
 }
 
 .to-tertiary-500 {
-  --tw-gradient-to: var(--color-tertiary-500);
+  --tw-gradient-to: var(--color-tertiary-500) var(--tw-gradient-to-position);
+  --tw-gradient-to-position:  ;
 }
 
 .bg-cover {
