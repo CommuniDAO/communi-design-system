@@ -1,7 +1,7 @@
 {
   "name": "communi-design-system",
   "description": "design system for CommuniDAO",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -104,8 +104,8 @@
   },
   "peerDependencies": {
     "clsx": "^1.2.1",
-    "react": "^16 | ^17 | ^18",
-    "react-dom": "^16 | ^17 | ^18"
+    "react": "^18",
+    "react-dom": "^18"
   },
   "engines": {
     "node": ">= 10"
