@@ -1,7 +1,7 @@
 {
   "name": "communi-design-system",
   "description": "design system for CommuniDAO",
-  "version": "0.0.11",
+  "version": "0.0.13",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -35,15 +35,17 @@
     "communi-design-system",
     "lass"
   ],
+  "dependencies": {
+    "@h6s/calendar": "latest",
+    "@headlessui/react": "latest"
+  },
   "devDependencies": {
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
     "@babel/preset-react": "latest",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
-    "@h6s/calendar": "latest",
     "@headlessui-float/react": "^0.8.0",
-    "@headlessui/react": "latest",
     "@storybook/addon-actions": "6.5.14",
     "@storybook/addon-essentials": "6.5.14",
     "@storybook/addon-links": "6.5.14",
