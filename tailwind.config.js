@@ -11,6 +11,7 @@ module.exports = {
     './src/atoms/**/*.{js,jsx,ts,tsx}',
   ],
   safelist: [
+    'my-8',
     'text-paragraph-medium-underlined',
     'bg-background',
     'grid-cols-1',

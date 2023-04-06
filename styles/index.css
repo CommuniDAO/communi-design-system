@@ -1235,6 +1235,11 @@ select {
   margin-right: auto;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .my-\[20px\] {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -3471,6 +3476,10 @@ select {
   color: var(--color-neutral-100);
 }
 
+.text-neutral-1100 {
+  color: var(--color-neutral-1100);
+}
+
 .text-neutral-200 {
   color: var(--color-neutral-200);
 }
@@ -3953,6 +3962,10 @@ select {
   color: var(--color-primary-400);
 }
 
+.hover\:text-primary-700:hover {
+  color: var(--color-primary-700);
+}
+
 .hover\:text-red-100:hover {
   --tw-text-opacity: 1;
   color: rgb(255 228 230 / var(--tw-text-opacity));
@@ -4143,8 +4156,8 @@ select {
   color: var(--color-primary-400);
 }
 
-.focus\:text-primary-500:focus {
-  color: var(--color-primary-500);
+.focus\:text-primary-800:focus {
+  color: var(--color-primary-800);
 }
 
 .focus\:text-red-100:focus {
