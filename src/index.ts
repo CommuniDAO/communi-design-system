@@ -46,5 +46,6 @@ export type {
 } from './atoms/types';
 export {
   ClaimKey,
-  ConnectWallet
+  ConnectWallet,
+  Settings
 } from './templates'

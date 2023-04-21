@@ -12,6 +12,8 @@ module.exports = {
   ],
   safelist: [
     'my-8',
+    'px-[40px]',
+    'rounded-[40px]',
     'text-paragraph-medium-underlined',
     'bg-background',
     'grid-cols-1',
