@@ -2117,10 +2117,6 @@ select {
   justify-content: space-between;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
@@ -2306,6 +2302,10 @@ select {
   border-radius: 0.25rem;
 }
 
+.rounded-\[100px\] {
+  border-radius: 100px;
+}
+
 .rounded-\[10px\] {
   border-radius: 10px;
 }
@@ -2364,18 +2364,6 @@ select {
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-\[p8x\] {
-  border-radius: p8x;
-}
-
-.rounded-\[50px\] {
-  border-radius: 50px;
-}
-
-.rounded-\[100px\] {
-  border-radius: 100px;
 }
 
 .rounded-l-md {
@@ -2468,14 +2456,6 @@ select {
 
 .border-\[1px\] {
   border-width: 1px;
-}
-
-.border-\[2px\] {
-  border-width: 2px;
-}
-
-.border-\[8px\] {
-  border-width: 8px;
 }
 
 .border-\[4px\] {
@@ -2986,6 +2966,11 @@ select {
   padding-right: 16px;
 }
 
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .px-\[2px\] {
   padding-left: 2px;
   padding-right: 2px;
@@ -3129,11 +3114,6 @@ select {
 .py-\[8px\] {
   padding-top: 8px;
   padding-bottom: 8px;
-}
-
-.px-\[20px\] {
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .pb-1 {
