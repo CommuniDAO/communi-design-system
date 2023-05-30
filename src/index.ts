@@ -40,12 +40,16 @@ export {
   Sidebar,
   Tooltip,
   QRCode
-} from './atoms/components';
-export type {
-  itemsNavigationProps,
-} from './atoms/types';
+} from './shared/components';
+export {
+  type itemsNavigationProps,
+} from './shared/types';
+export {
+  AdminHeader,
+} from './composables';
 export {
   ClaimKey,
   ConnectWallet,
-  Settings
+  Settings,
+  Home
 } from './templates'

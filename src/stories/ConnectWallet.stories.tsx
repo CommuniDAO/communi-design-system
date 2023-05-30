@@ -5,7 +5,7 @@ import '~/styles/index.css';
 
 export default {
   component: ConnectWallet,
-  title: 'New / ConnectWallet',
+  title: 'Templates / ConnectWallet',
   argTypes: {},
   decorators: [withDesign]
 };

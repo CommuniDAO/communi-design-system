@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.1 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -603,123 +603,63 @@ select {
   font-weight: 800;
 }
 
-.text-h1-normal-bold {
+.text-h1-bold {
   font-size: 60.2px;
   font-weight: 700;
 }
 
-.text-h1-normal-semi-bold {
+.text-h1-semi-bold {
   font-size: 60.2px;
   font-weight: 600;
 }
 
-.text-h1-normal-extra-bold {
+.text-h1-extra-bold {
   font-size: 60.2px;
   font-weight: 800;
 }
 
-.text-h1-small-bold {
+.text-h2-bold {
   font-size: 41.8px;
   font-weight: 700;
 }
 
-.text-h1-small-semi-bold {
+.text-h2-semi-bold {
   font-size: 41.8px;
   font-weight: 600;
 }
 
-.text-h1-small-extra-bold {
+.text-h2-extra-bold {
   font-size: 41.8px;
   font-weight: 800;
 }
 
-.text-h2-normal-bold {
-  font-size: 41.8px;
-  font-weight: 700;
-}
-
-.text-h2-normal-semi-bold {
-  font-size: 41.8px;
-  font-weight: 600;
-}
-
-.text-h2-normal-extra-bold {
-  font-size: 41.8px;
-  font-weight: 800;
-}
-
-.text-h2-small-bold {
+.text-h3-bold {
   font-size: 34.8px;
   font-weight: 700;
 }
 
-.text-h2-small-semi-bold {
+.text-h3-semi-bold {
   font-size: 34.8px;
   font-weight: 600;
 }
 
-.text-h2-small-extra-bold {
+.text-h3-extra-bold {
   font-size: 34.8px;
   font-weight: 800;
 }
 
-.text-h3-normal-bold {
-  font-size: 34.8px;
-  font-weight: 700;
-}
-
-.text-h3-normal-semi-bold {
-  font-size: 34.8px;
-  font-weight: 600;
-}
-
-.text-h3-normal-extra-bold {
-  font-size: 34.8px;
-  font-weight: 800;
-}
-
-.text-h3-small-bold {
+.text-h4-bold {
   font-size: 29px;
   font-weight: 700;
 }
 
-.text-h3-small-semi-bold {
+.text-h4-semi-bold {
   font-size: 29px;
   font-weight: 600;
 }
 
-.text-h3-small-extra-bold {
+.text-h4-extra-bold {
   font-size: 29px;
-  font-weight: 800;
-}
-
-.text-h4-normal-bold {
-  font-size: 29px;
-  font-weight: 700;
-}
-
-.text-h4-normal-semi-bold {
-  font-size: 29px;
-  font-weight: 600;
-}
-
-.text-h4-normal-extra-bold {
-  font-size: 29px;
-  font-weight: 800;
-}
-
-.text-h4-small-bold {
-  font-size: 24.2px;
-  font-weight: 700;
-}
-
-.text-h4-small-semi-bold {
-  font-size: 24.2px;
-  font-weight: 600;
-}
-
-.text-h4-small-extra-bold {
-  font-size: 24.2px;
   font-weight: 800;
 }
 
@@ -743,62 +683,62 @@ select {
   font-weight: 300;
 }
 
-.text-paragraph-large-medium {
+.text-p1-medium {
   font-size: 20.2px;
   font-weight: 500;
 }
 
-.text-paragraph-large-bold {
+.text-p1-bold {
   font-size: 20.2px;
   font-weight: 700;
 }
 
-.text-paragraph-large-underlined {
+.text-p1-underlined {
   font-size: 20.2px;
   text-decoration-line: underline;
 }
 
-.text-paragraph-large-light {
+.text-p1-light {
   font-size: 20.2px;
   font-weight: 300;
 }
 
-.text-paragraph-medium-medium {
+.text-p2-medium {
   font-size: 16.8px;
   font-weight: 500;
 }
 
-.text-paragraph-medium-bold {
+.text-p2-bold {
   font-size: 16.8px;
   font-weight: 700;
 }
 
-.text-paragraph-medium-underlined {
+.text-p2-underlined {
   font-size: 16.8px;
   text-decoration-line: underline;
 }
 
-.text-paragraph-medium-light {
+.text-p2-light {
   font-size: 16.8px;
   font-weight: 300;
 }
 
-.text-paragraph-small-medium {
+.text-p3-medium {
   font-size: 14px;
   font-weight: 500;
 }
 
-.text-paragraph-small-bold {
+.text-p3-bold {
   font-size: 14px;
   font-weight: 700;
 }
 
-.text-paragraph-small-underlined {
+.text-p3-underlined {
   font-size: 14px;
   text-decoration-line: underline;
 }
 
-.text-paragraph-small-light {
+.text-p3-light {
   font-size: 14px;
   font-weight: 300;
 }
@@ -869,6 +809,9 @@ select {
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
   --tw-ordinal:  ;
   --tw-slashed-zero:  ;
   --tw-numeric-figure:  ;
@@ -916,6 +859,9 @@ select {
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
   --tw-ordinal:  ;
   --tw-slashed-zero:  ;
   --tw-numeric-figure:  ;
@@ -1589,6 +1535,10 @@ select {
   height: 800px;
 }
 
+.h-\[80px\] {
+  height: 80px;
+}
+
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
@@ -1628,6 +1578,10 @@ select {
 
 .max-h-full {
   max-height: 100%;
+}
+
+.min-h-\[64px\] {
+  min-height: 64px;
 }
 
 .min-h-screen {
@@ -1750,12 +1704,20 @@ select {
   width: 32px;
 }
 
+.w-\[360px\] {
+  width: 360px;
+}
+
 .w-\[36px\] {
   width: 36px;
 }
 
 .w-\[40px\] {
   width: 40px;
+}
+
+.w-\[480px\] {
+  width: 480px;
 }
 
 .w-\[48px\] {
@@ -1805,6 +1767,10 @@ select {
 
 .max-w-\[400px\] {
   max-width: 400px;
+}
+
+.max-w-\[500px\] {
+  max-width: 500px;
 }
 
 .max-w-\[720px\] {
@@ -2151,6 +2117,10 @@ select {
   justify-content: space-between;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -2332,10 +2302,6 @@ select {
   white-space: nowrap;
 }
 
-.whitespace-nowrap {
-  white-space: nowrap;
-}
-
 .rounded {
   border-radius: 0.25rem;
 }
@@ -2398,6 +2364,18 @@ select {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-\[p8x\] {
+  border-radius: p8x;
+}
+
+.rounded-\[50px\] {
+  border-radius: 50px;
+}
+
+.rounded-\[100px\] {
+  border-radius: 100px;
 }
 
 .rounded-l-md {
@@ -2490,6 +2468,18 @@ select {
 
 .border-\[1px\] {
   border-width: 1px;
+}
+
+.border-\[2px\] {
+  border-width: 2px;
+}
+
+.border-\[8px\] {
+  border-width: 8px;
+}
+
+.border-\[4px\] {
+  border-width: 4px;
 }
 
 .border-b {
@@ -2843,32 +2833,25 @@ select {
 
 .from-primary-500 {
   --tw-gradient-from: var(--color-primary-500) var(--tw-gradient-from-position);
-  --tw-gradient-from-position:  ;
-  --tw-gradient-to: rgb(255 255 255 / 0)  var(--tw-gradient-from-position);
-  --tw-gradient-to-position:  ;
+  --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .via-secondary-500 {
-  --tw-gradient-via-position:  ;
   --tw-gradient-to: rgb(255 255 255 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-to-position:  ;
   --tw-gradient-stops: var(--tw-gradient-from), var(--color-secondary-500) var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 
 .to-background {
   --tw-gradient-to: var(--color-background) var(--tw-gradient-to-position);
-  --tw-gradient-to-position:  ;
 }
 
 .to-secondary-400 {
   --tw-gradient-to: var(--color-secondary-400) var(--tw-gradient-to-position);
-  --tw-gradient-to-position:  ;
 }
 
 .to-tertiary-500 {
   --tw-gradient-to: var(--color-tertiary-500) var(--tw-gradient-to-position);
-  --tw-gradient-to-position:  ;
 }
 
 .bg-cover {
@@ -3146,6 +3129,11 @@ select {
 .py-\[8px\] {
   padding-top: 8px;
   padding-bottom: 8px;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .pb-1 {

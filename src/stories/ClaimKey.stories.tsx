@@ -5,7 +5,7 @@ import '~/styles/index.css';
 
 export default {
   component: ClaimKey,
-  title: 'New / ClaimKey',
+  title: 'Templates / ClaimKey',
   argTypes: {},
   decorators: [withDesign]
 };

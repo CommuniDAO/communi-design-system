@@ -68,81 +68,44 @@ font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
     @apply text-[72.2px] font-extrabold;
   }
 
-  .text-h1-normal-bold {
+  .text-h1-bold {
     @apply text-[60.2px] font-bold;
   }
-  .text-h1-normal-semi-bold {
+  .text-h1-semi-bold {
     @apply text-[60.2px] font-semibold;
   }
-  .text-h1-normal-extra-bold {
+  .text-h1-extra-bold {
     @apply text-[60.2px] font-extrabold;
   }
-  .text-h1-small-bold {
+
+  .text-h2-bold {
     @apply text-[41.8px] font-bold;
   }
-  .text-h1-small-semi-bold {
+  .text-h2-semi-bold {
     @apply text-[41.8px] font-semibold;
   }
-  .text-h1-small-extra-bold {
+  .text-h2-extra-bold {
     @apply text-[41.8px] font-extrabold;
   }
 
-  .text-h2-normal-bold {
-    @apply text-[41.8px] font-bold;
-  }
-  .text-h2-normal-semi-bold {
-    @apply text-[41.8px] font-semibold;
-  }
-  .text-h2-normal-extra-bold {
-    @apply text-[41.8px] font-extrabold;
-  }
-  .text-h2-small-bold {
+  .text-h3-bold {
     @apply text-[34.8px] font-bold;
   }
-  .text-h2-small-semi-bold {
+  .text-h3-semi-bold {
     @apply text-[34.8px] font-semibold;
   }
-  .text-h2-small-extra-bold {
+  .text-h3-extra-bold {
     @apply text-[34.8px] font-extrabold;
   }
 
-  .text-h3-normal-bold {
-    @apply text-[34.8px] font-bold;
-  }
-  .text-h3-normal-semi-bold {
-    @apply text-[34.8px] font-semibold;
-  }
-  .text-h3-normal-extra-bold {
-    @apply text-[34.8px] font-extrabold;
-  }
-  .text-h3-small-bold {
+  .text-h4-bold {
     @apply text-[29px] font-bold;
   }
-  .text-h3-small-semi-bold {
+  .text-h4-semi-bold {
     @apply text-[29px] font-semibold;
   }
-  .text-h3-small-extra-bold {
+  .text-h4-extra-bold {
     @apply text-[29px] font-extrabold;
-  }
-
-  .text-h4-normal-bold {
-    @apply text-[29px] font-bold;
-  }
-  .text-h4-normal-semi-bold {
-    @apply text-[29px] font-semibold;
-  }
-  .text-h4-normal-extra-bold {
-    @apply text-[29px] font-extrabold;
-  }
-
-  .text-h4-small-bold {
-    @apply text-[24.2px] font-bold;
-  }
-  .text-h4-small-semi-bold {
-    @apply text-[24.2px] font-semibold;
-  }
-  .text-h4-small-extra-bold {
-    @apply text-[24.2px] font-extrabold;
   }
 
   .text-subheading-medium {
@@ -159,42 +122,42 @@ font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
   }
 
 
-  .text-paragraph-large-medium {
+  .text-p1-medium {
     @apply text-[20.2px] font-medium;
   }
-  .text-paragraph-large-bold {
+  .text-p1-bold {
     @apply text-[20.2px] font-bold;
   }
-  .text-paragraph-large-underlined {
+  .text-p1-underlined {
     @apply text-[20.2px] underline;
   }
-  .text-paragraph-large-light {
+  .text-p1-light {
     @apply text-[20.2px] font-light;
   }
 
-  .text-paragraph-medium-medium {
+  .text-p2-medium {
     @apply text-[16.8px] font-medium;
   }
-  .text-paragraph-medium-bold {
+  .text-p2-bold {
     @apply text-[16.8px] font-bold;
   }
-  .text-paragraph-medium-underlined {
+  .text-p2-underlined {
     @apply text-[16.8px] underline;
   }
-  .text-paragraph-medium-light {
+  .text-p2-light {
     @apply text-[16.8px] font-light;
   }
 
-  .text-paragraph-small-medium {
+  .text-p3-medium {
     @apply text-[14px] font-medium;
   }
-  .text-paragraph-small-bold {
+  .text-p3-bold {
     @apply text-[14px] font-bold;
   }
-  .text-paragraph-small-underlined {
+  .text-p3-underlined {
     @apply text-[14px] underline;
   }
-  .text-paragraph-small-light {
+  .text-p3-light {
     @apply text-[14px] font-light;
   }
 

@@ -1,7 +1,7 @@
 {
   "name": "communi-design-system",
   "description": "design system for CommuniDAO",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -45,7 +45,11 @@
     "date-fns": "latest",
     "ahooks": "latest",
     "use-is-focused": "latest",
-    "dayzed": "latest"
+    "qrcode-generator": "1.4.1",
+    "stellar-identicon-js": "^1.0.0",
+    "dayzed": "latest",
+    "clsx": "latest"
+
   },
   "devDependencies": {
     "@babel/core": "latest",
@@ -70,7 +74,6 @@
     "@typescript-eslint/parser": "latest",
     "autoprefixer": "latest",
     "babel-loader": "latest",
-    "clsx": "latest",
     "codecov": "latest",
     "concurrently": "latest",
     "cross-env": "^7.0.3",
@@ -87,7 +90,6 @@
     "nyc": "latest",
     "pm2": "latest",
     "postcss": "latest",
-    "qrcode-generator": "1.4.1",
     "react": "^17",
     "react-dom": "^17",
     "react-use": "latest",

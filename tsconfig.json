@@ -19,7 +19,7 @@
       "~/src/*": ["./src/*"],
     }
   },
-  "include": ["src/**/*", "src/atoms/stories/**/*", "styles/index.css" ],
+  "include": ["src/**/*", "src/shared/stories/**/*", "styles/index.css" ],
   "exclude": ["node_modules", "lib", "./styles/main.css"]
 }
   
