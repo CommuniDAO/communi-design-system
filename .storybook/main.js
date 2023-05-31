@@ -22,15 +22,27 @@ if (process.env.NODE_ENV === 'development') {
 module.exports = {
   stories,
   features: { storyStoreV7: false },
-  addons: [
-    '@storybook/addon-links',
-    '@storybook/addon-essentials',
-    'storybook-addon-designs',
-    '@storybook/addon-controls',
-    '@storybook/addon-actions',
-    '@storybook/addon-measure',
-    'storybook-dark-mode'
-  ],
+  addons: ['@storybook/addon-links', 
+           '@storybook/addon-essentials', 
+           'storybook-addon-designs', 
+           '@storybook/addon-controls', 
+           '@storybook/addon-actions', 
+           '@storybook/addon-measure', 
+           'storybook-dark-mode', 
+           {
+    name: '@storybook/addon-storysource',
+    options: {
+      rule: {
+        // test: [/\.stories\.jsx?$/], This is default
+        include: [path.resolve(__dirname, '../src')], // You can specify directories
+      },
+      loaderOptions: {
+        prettierConfig: { printWidth: 80, singleQuote: false },
+      },
+    },
+  },
+   
+],
   webpackFinal: async (config, { configType }) => {
     config.resolve.alias = {
       ...config.resolve.alias,
