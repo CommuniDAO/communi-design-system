@@ -1,7 +1,7 @@
 {
   "name": "communi-design-system",
   "description": "design system for CommuniDAO",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
