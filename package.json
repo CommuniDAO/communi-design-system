@@ -48,7 +48,8 @@
     "qrcode-generator": "1.4.1",
     "rci": "latest",
     "stellar-identicon-js": "^1.0.0",
-    "use-is-focused": "latest"
+    "use-is-focused": "latest",
+    "@emotion/is-prop-valid": "latest"
   },
   "devDependencies": {
     "@babel/core": "latest",

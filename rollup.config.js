@@ -16,7 +16,7 @@ export default {
       file: 'lib/index.js', // Output file
       format: 'umd', // UMD format for use in Node.js or in the browser
       name: 'communi-design-system', // Name of the global variable for the bundle
-      sourcemap: true,
+      sourcemap: false,
       globals: {
         'react': 'React', // Indicate that React is external and will not be bundled
         'react-dom': 'ReactDOM' // Indicate that ReactDOM is external and will not be bundled
