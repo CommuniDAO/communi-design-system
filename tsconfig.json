@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./lib",
+    "outDir": "lib",
     "target": "ES2021",
     "lib": ["ES2021", "dom"],
     "allowJs": true,
@@ -22,4 +22,3 @@
   "include": ["src/**/*", "src/shared/stories/**/*", "styles/index.css" ],
   "exclude": ["node_modules", "lib", "./styles/main.css"]
 }
-  
