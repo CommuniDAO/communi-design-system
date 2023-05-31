@@ -20,7 +20,7 @@ export const parameters = {
     stylePreview: true
   },
   backgrounds: {
-    default: 'dark',
+    default: 'light',
     values: [
       {
         name: 'light',
