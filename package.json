@@ -1,7 +1,7 @@
 {
   "name": "communi-design-system",
   "description": "design system for CommuniDAO",
-  "version": "0.0.19",
+  "version": "0.0.21",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -136,6 +136,6 @@
   },
   "homepage": "https://github.com/CommuniDAO/communi-design-system",
   "volta": {
-    "node": "17.9.1"
+    "node": "16.15.1"
   }
 }
