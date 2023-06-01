@@ -1,7 +1,7 @@
 {
   "name": "communi-design-system",
   "description": "design system for CommuniDAO",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -15,12 +15,11 @@
   "scripts": {
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "lint": "npm run lint:js && npm run lint:md",
-    "babel": "babel src --out-dir lib --extensions '.ts,.tsx'",
     "lint:js": "xo",
     "lint:md": "remark . -qfo",
     "pretest": "npm run lint",
     "clean": "rm -rf lib",
-    "build": "tsc",
+    "build": "babel src --out-dir lib --extensions '.ts,.tsx'",
     "webpack": "webpack --mode production",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "cross-env NODE_ENV=production storybook build",
@@ -49,7 +48,6 @@
     "luxon": "^3.3.0",
     "qrcode-generator": "1.4.1",
     "rci": "latest",
-    "stellar-identicon-js": "^1.0.0",
     "use-is-focused": "latest"
   },
   "devDependencies": {
