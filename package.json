@@ -1,7 +1,7 @@
 {
   "name": "communi-design-system",
   "description": "design system for CommuniDAO",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -48,7 +48,6 @@
     "luxon": "^3.3.0",
     "qrcode-generator": "1.4.1",
     "rci": "latest",
-    "stellar-identicon-js": "^1.0.0",
     "use-is-focused": "latest"
   },
   "devDependencies": {
