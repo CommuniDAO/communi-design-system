@@ -37,7 +37,6 @@
     "lass"
   ],
   "dependencies": {
-    "@emotion/is-prop-valid": "latest",
     "@h6s/calendar": "latest",
     "@headlessui-float/react": "^0.8.0",
     "@headlessui/react": "latest",
@@ -49,15 +48,14 @@
     "luxon": "^3.3.0",
     "qrcode-generator": "1.4.1",
     "rci": "latest",
-    "stellar-identicon-js": "^1.0.0",
     "use-is-focused": "latest"
   },
   "devDependencies": {
-    "@babel/cli": "^7.21.5",
+    "@babel/cli": "latest",
     "@babel/core": "latest",
-    "@babel/preset-env": "^7.22.4",
+    "@babel/preset-env": "latest",
     "@babel/preset-react": "latest",
-    "@babel/preset-typescript": "^7.21.5",
+    "@babel/preset-typescript": "latest",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "@storybook/addon-actions": "7.0.18",
@@ -90,7 +88,6 @@
     "eslint-config-xo-typescript": "latest",
     "fixpack": "latest",
     "husky": "latest",
-    "lint-staged": "latest",
     "lunarphase-js": "latest",
     "nyc": "latest",
     "pm2": "latest",
@@ -139,6 +136,6 @@
   },
   "homepage": "https://github.com/CommuniDAO/communi-design-system",
   "volta": {
-    "node": "16.15.1"
+    "node": "17.9.1"
   }
 }
