@@ -102,6 +102,8 @@
     "remark-preset-github": "latest",
     "storybook": "^7.0.18",
     "storybook-addon-designs": "^7.0.0-beta.2",
+    "@storybook/addon-storysource": "^7.0.18",
+    "@storybook/addon-controls": "^7.0.18",
     "storybook-dark-mode": "latest",
     "tailwindcss": "^3.2.4",
     "ts-loader": "latest",
