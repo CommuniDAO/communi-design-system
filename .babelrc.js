@@ -19,13 +19,6 @@ module.exports = function(api) {
         }
       ],
       ["transform-inline-environment-variables"]
-    ],
-    env: {
-      production: {
-        plugins: [["inline-dotenv",{
-          path: '.env'
-        }]]
-      },
-    }
+    ]
   };
 };

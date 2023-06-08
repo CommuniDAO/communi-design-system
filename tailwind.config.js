@@ -101,6 +101,7 @@ module.exports = {
     'text-p3-bold',
     'text-p3-underlined',
     'text-p3-light',
+    'text-p2-medium',
     'text-caption-medium',
     'text-caption-bold',
     'text-caption-underlined',
